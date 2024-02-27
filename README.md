@@ -7,7 +7,7 @@ _Built by StarReach Team_
 
 <div align='center'>
 
-Hello world! This is Pluto, a web application which enables people to chat, discuss, create and edit tasks and _create blueprints for teams (coming soon)_.
+_This is Pluto, a web application that enables people to chat, discuss, create and edit tasks, and create blueprints for teams (coming soon)_.
 
 </div>
 
@@ -19,7 +19,7 @@ Hello world! This is Pluto, a web application which enables people to chat, disc
 
 # Tech Stack
 
-This application is built with this following technologies:
+This application is built with the following technologies:
 
 1. [MongoDB](https://www.mongodb.com/) _as NoSQL Database_
 2. [Express.js](https://expressjs.com/) _for Back-end server API_
@@ -33,4 +33,4 @@ This application is built with this following technologies:
 
 # How to contribute to this project
 
-You can just simply read the [`Contributing.md`]() and know the basic rules that you must need to follow while contributing this project.
+You can just simply read the [`Contributing.md`]() and know the basic rules that you need to follow while contributing to this project.
