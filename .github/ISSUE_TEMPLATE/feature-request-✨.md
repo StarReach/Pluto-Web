@@ -12,4 +12,4 @@ assignees: ''
 
 - [x] I have checked all issues and found no duplicates of this issue
 - [ ] I can implement this feature by myself
-- [ ] This bug report is authorized by the admins or moderators of this repository *(if anyone found that you lied that this bug report is authorized by the admins or moderators then you will be punished)*
+- [ ] This feature request is authorized by the admins or moderators of this repository *(if anyone found that you lied that this bug report is authorized by the admins or moderators then you will be punished)*
