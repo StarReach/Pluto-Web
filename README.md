@@ -33,4 +33,4 @@ This application is built with the following technologies:
 
 # How to contribute to this project
 
-You can just simply read the [`Contributing.md`]() and know the basic rules that you need to follow while contributing to this project.
+You can just simply read the [`CONTRIBUTING.md`](./CONTRIBUTING.md) and know the basic rules that you need to follow while contributing to this project.
