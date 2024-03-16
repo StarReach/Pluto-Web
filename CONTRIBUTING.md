@@ -46,22 +46,24 @@ _Congrats! You successfully setting up the project locally! Now you can start co
 
 5. Finally if you decided to work on the issue alone, then on that issue page you will find "Development" section on the right side of the issue content .
 
-![GithubIssueBranch](./imgs_for_docs/GithubIssueBranch.png)
+    ![GithubIssueBranch](./imgs_for_docs/GithubIssueBranch.png)
 
-Click the "Create a branch" option inside it.
+    Click the "Create a branch" option inside it.
 
-![CreateBranch](./imgs_for_docs/CreateBranch.png)
+    ![CreateBranch](./imgs_for_docs/CreateBranch.png)
 
-Select your forked repository to create the branch on, and then click the "Create branch" button.
+    Select your forked repository to create the branch on, and then click the "Create branch" button.
 
-![BranchCreated](./imgs_for_docs/BranchCreated.png)
+    ![BranchCreated](./imgs_for_docs/BranchCreated.png)
 
-Once the branch is created, this popup will show up meaning that the branch has been successfully created in your forked repository. Copy the commands in the popup menu and run them in your local clone of your forked repository. From now on you can commit and push that branch after you implemented the issue.
+    Once the branch is created, this popup will show up meaning that the branch has been successfully created in your forked repository. Copy the commands in the popup menu and run them in your local clone of your forked repository. From now on you can commit and push that branch after you implemented the issue.
 
-1. After pushing the changes to your forked repository, create a pull request from your forked repository's issue specific branch that you created in the last step to the main repository's beta branch and be sure to also mention the issue using `#` (i.e. `#15`) in the pull request's name itself.
-2. Your pull request will automatically be reviewed and merged into the main repository _(if it didn't run into any problems or any poor implementation)_.
-3. If you found any bug, then create a new issue in the Bug Report issue template and anyone who found that this issue can be fixed will get assigned to this issue and fix this issue or maybe you can also try fixing it by yourself if you think you can fix the issue by your own or with the help of others.
+6. After pushing the changes to your forked repository, create a pull request from your forked repository's issue specific branch that you created in the last step to the main repository's main branch and be sure to also mention the issue using `#` (i.e. `#15`) in the pull request's name itself.
+7. Your pull request will automatically be reviewed and merged into the main repository _(if it didn't run into any problems or any poor implementation)_.
 
+> [!NOTE]
+> If you ran into any bugs and you think you can't fix them, you can simply create an issue using Bug Report issue template on this repository and explain the bug you encountered in that issue, This will help others to identify and bug fix the issue easily. 
+ 
 _Thank you for your contributions to this project, we appreciate it very much!_ 🥳
 
 # Code of Conduct
