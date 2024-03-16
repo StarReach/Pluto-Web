@@ -1,6 +1,6 @@
 # Contributing to this project
 
-Welcome to Pluto! We appreciate and welcome contributions on our project, your contribution enhances our app and increases it's efficiency.
+Welcome to Pluto! We appreciate and welcome contributions to our project, your contribution enhances the efficiency of our app.
 
 # Table of Contents
 
@@ -13,7 +13,7 @@ Welcome to Pluto! We appreciate and welcome contributions on our project, your c
 # Setup the project locally
 
 1. Fork this repository into your Github account.
-2. Clone the forked repository to your local system using `git clone -p https://github.com/USERNAME/Pluto-Web.git` where `USERNAME` is your actual github username.
+2. Clone the forked repository to your local system using `git clone https://github.com/USERNAME/Pluto-Web.git` where `USERNAME` is your actual github username.
 3. Navigate to `/server` directory which is the back-end of our web application, then run `npm install` (or) `yarn install` to install all dependencies.
 4. Create a file named `.env` in the `/server` directory itself, and paste the following into the file:
 
@@ -32,7 +32,7 @@ MONGO_URI=(The uri of the MongoDB database)
 > [!WARNING]
 > You need to run two instances in two different terminals, one is the front-end client and another one is the back-end server. If you run only client then the client won't display elements properly as the back-end server is offline.
 
-_Congrats! You successfully setting up the project locally! Now you can start contributing! If you ran into any problems, feel free to open a new issue in Bug Report issue template!_ 🥳
+_Congrats! You have successfully set up the project locally! Now you can start contributing and if you run into any problems, feel free to open a new issue in Bug Report issue template!_ 🥳
 
 # Guide to contributing to this project
 
@@ -68,9 +68,9 @@ _Thank you for your contributions to this project, we appreciate it very much!_ 
 
 # Code of Conduct
 
-We appreciate if all the contributions to follow the [`CODE_OF_CONDUCT`](./CODE_OF_CONDUCT.md) to help us build a better community!
+We appreciate if all the contributions follow the [CODE_OF_CONDUCT](./CODE_OF_CONDUCT.md) to help us build a better community!
 
 > [!NOTE]
 > If you like this repository and our work, then why not star our repository to show support?
 
-Once again we thank everyone who have contributed to this project so far and we also appreciate the ones who will contribute to this project in the future!
+Once again we thank everyone who has contributed to this project so far and we also appreciate the ones who will contribute to this project in the future!
