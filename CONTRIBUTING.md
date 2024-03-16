@@ -25,7 +25,7 @@ MONGO_URI=(The uri of the MongoDB database)
 6. Replace the `PORT` environment variable with the port number you want the backend to run in, it is recommended to use the port number `4000` as it is the common port number used for back-end servers. For the `MONGO_URI` environment variable, you need to create an account on [MongoDB Website](https://www.mongodb.com/) and create a project, create a shared database _(the only free-tier database that MongoDB offers per project)_ and click connect button, click drivers and then choose the latest Node.js version and then copy the uri and paste it into the `MONGO_URI` environment variable.
 7. At last, you can run `npm run dev` to run the back-end server in nodemon.
 > [!IMPORTANT]
-> If you intend to run the back-end server in Node.js then you need to run `npm run start` but before that back-end server needs to be complied to JavaScript as it's TypeScript, so run `npm run build` and then proceed with `npm run start` to run in Node.js 
+> If you intend to run the back-end server in Node.js, then you need to run `npm run start`. But before that, the back-end needs to be compiled to JavaScript as it's TypeScript. So run `npm run build` and then proceed with `npm run start` to run in Node.js 
 8. Now navigate to `/client` directory which is the front-end of our web application, then run `npm install` (or) `yarn install` to install all dependencies.
 9.  Finally, run `npm run dev` to run the front-end client application.
 
