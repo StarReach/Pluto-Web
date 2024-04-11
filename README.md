@@ -7,7 +7,7 @@ _Built by StarReach Team_
 
 <div align='center'>
 
-_This is Pluto, a web application that enables people to chat, discuss, create and edit tasks, and create blueprints for teams (coming soon)_.
+_This is a platform which makes it easier for people to share experiences between different planets in safe, transitory clouds. Planets are user-accessible groups, whereas clouds function as chat rooms_.
 
 </div>
 
@@ -25,11 +25,8 @@ This application is built with the following technologies:
 2. [Express.js](https://expressjs.com/) _for Back-end server API_
 3. [Node.js](https://nodejs.org/en) _for Back-end server API_
 4. [REST API](https://www.google.com/search?q=What+is+REST+API) _for data fetching and posting from one site to another_
-5. [React.js with TypeScript](https://www.typescriptlang.org/docs/handbook/react.html) _for Front-end client app_
-6. [Vite.js](https://vitejs.dev/) _for building Front-end client app_
-7. [Tailwind CSS](https://tailwindcss.com/) _for Front-end styling_
-8. [Vercel](https://vercel.com/maghishs-projects) _for Front-end client app deployment_
-9. [Render](https://render.com/) _for Back-end server deployment_
+5. [Next.js with Typescript](https://www.typescriptlang.org/docs/handbook/react.html) _for Front-end client app_
+6. [Tailwind CSS](https://tailwindcss.com/) _for Front-end styling_
 
 # How to contribute to this project
 
