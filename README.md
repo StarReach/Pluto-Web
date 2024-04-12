@@ -9,6 +9,10 @@ _Built by StarReach Team_
 
 _This is a platform which makes it easier for people to share experiences between different planets in safe, transitory clouds. Planets are user-accessible groups, whereas clouds function as chat rooms_.
 
+![Discord](https://img.shields.io/discord/1212052661189484627?label=Discord&labelColor=%232C2F33&color=%235539cc)
+![Node Current](https://img.shields.io/node/v/next)
+![NPM Version](https://img.shields.io/npm/v/next?label=Next.js)
+
 </div>
 
 # Table of Contents
