@@ -42,7 +42,7 @@ We welcome contributions from the open-source community. If you'd like to contri
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments 🙏
-- Special thanks to all our contributors for helping make this extension better. 🌟
+- Special thanks to all our contributors for helping us create this project. 🌟
 <p align="center">
   <img src="https://contributors-img.web.app/image?repo=StarReach/Pluto-Web" width = 500/>
 </p>
