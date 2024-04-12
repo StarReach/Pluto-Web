@@ -32,6 +32,19 @@ This application is built with the following technologies:
 5. [Next.js with Typescript](https://www.typescriptlang.org/docs/handbook/react.html) _for Front-end client app_
 6. [Tailwind CSS](https://tailwindcss.com/) _for Front-end styling_
 
-# How to contribute to this project
+## Feedback 🗣️
+If you encounter any issues, have suggestions for improvements, or want to report a bug, please feel free to [create an issue](https://github.com/StarReach/Pluto-Web/issues) on our GitHub repository. We value your feedback and will strive to enhance the application based on user input. 🤝
 
-You can just simply read the [`CONTRIBUTING.md`](./CONTRIBUTING.md) and know the basic rules that you need to follow while contributing to this project.
+## Contributing 🤝
+We welcome contributions from the open-source community. If you'd like to contribute to the development of this application, please follow our [contributing guidelines](CONTRIBUTING.md).
+
+## License 📜
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments 🙏
+- Special thanks to all our contributors for helping make this extension better. 🌟
+<p align="center">
+  <img src="https://contributors-img.web.app/image?repo=StarReach/Pluto-Web" width = 500/>
+</p>
+
+**Share experiences with Pluto** 🎉👀
