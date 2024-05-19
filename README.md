@@ -11,7 +11,7 @@ _This is a platform which makes it easier for people to share experiences betwee
 
 ![Discord](https://img.shields.io/discord/1212052661189484627?label=Discord&labelColor=%232C2F33&color=%235539cc)
 ![Node Current](https://img.shields.io/node/v/next)
-![NPM Version](https://img.shields.io/npm/v/next?label=Next.js)
+![NPM Version](https://img.shields.io/npm/v/next?label=Next.js&labelColor=%23000000&color=%23FFFFFF)
 
 </div>
 
