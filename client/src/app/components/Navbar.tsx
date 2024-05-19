@@ -21,7 +21,7 @@ export default function Navbar(props: NavbarComponentArguments) {
         <div className="flex flex-row items-center gap-x-14 font-mono text-white text-sm font-semibold">
           <Link
             href="/about"
-            className={`cursor-pointer transition-colors duration-100 ease-linear hover:text-primaryColor ${
+            className={`cursor-pointer transition-colors duration-75 ease-linear hover:text-primaryColor ${
               props.displayingPage === "About"
                 ? "underline underline-offset-4"
                 : ""
@@ -31,7 +31,7 @@ export default function Navbar(props: NavbarComponentArguments) {
           </Link>
           <Link
             href="/documentation"
-            className={`cursor-pointer transition-colors duration-100 ease-linear hover:text-primaryColor ${
+            className={`cursor-pointer transition-colors duration-75 ease-linear hover:text-primaryColor ${
               props.displayingPage === "Documentation"
                 ? "underline underline-offset-4"
                 : ""
@@ -41,10 +41,18 @@ export default function Navbar(props: NavbarComponentArguments) {
           </Link>
           <Link
             href="https://github.com/StarReach/Pluto-Web.git"
-            className="cursor-pointer transition-colors duration-100 ease-linear hover:text-primaryColor"
+            className="cursor-pointer transition-colors duration-75 ease-linear hover:text-primaryColor"
           >
             Github
           </Link>
+        </div>
+        <div className="ml-auto h-full w-auto flex flex-row gap-x-8">
+          <button className="bg-inherit text-white font-mono font-semibold px-4 py-2 cursor-pointer transition duration-75 ease-linear hover:text-[#e7e7e7]">
+            Login
+          </button>
+          <button className="bg-primaryColor rounded-lg text-black font-mono font-semibold px-4 py-2 cursor-pointer transition duration-75 ease-linear hover:opacity-95">
+            Try Now
+          </button>
         </div>
       </div>
     </>
