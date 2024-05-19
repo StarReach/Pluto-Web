@@ -33,18 +33,22 @@ This application is built with the following technologies:
 6. [Tailwind CSS](https://tailwindcss.com/) _for Front-end styling_
 
 ## Feedback 🗣️
+
 If you encounter any issues, have suggestions for improvements, or want to report a bug, please feel free to [create an issue](https://github.com/StarReach/Pluto-Web/issues) on our GitHub repository. We value your feedback and will strive to enhance the application based on user input. 🤝
 
 ## Contributing 🤝
+
 We welcome contributions from the open-source community. If you'd like to contribute to the development of this application, please follow our [contributing guidelines](CONTRIBUTING.md).
 
 ## License 📜
+
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments 🙏
+
 - Special thanks to all our contributors for helping us create this project. 🌟
 <p align="center">
   <img src="https://contributors-img.web.app/image?repo=StarReach/Pluto-Web" width = 500/>
 </p>
 
-**Share experiences with Pluto** 🎉👀
+**Share experiences through Pluto** 🎉
