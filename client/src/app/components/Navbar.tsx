@@ -47,9 +47,11 @@ export default function Navbar(props: NavbarComponentArguments) {
           </Link>
         </div>
         <div className="ml-auto h-full w-auto flex flex-row gap-x-8">
-          <button className="bg-inherit text-white font-mono font-semibold px-4 py-2 cursor-pointer transition duration-75 ease-linear hover:text-[#e7e7e7]">
-            Login
-          </button>
+          <Link href="/login">
+            <button className="bg-inherit text-white font-mono font-semibold px-4 py-2 cursor-pointer transition duration-75 ease-linear hover:text-[#e7e7e7]">
+              Login
+            </button>
+          </Link>
           <button className="bg-primaryColor rounded-lg text-black font-mono font-semibold px-4 py-2 cursor-pointer transition duration-75 ease-linear hover:opacity-95">
             Try Now
           </button>
