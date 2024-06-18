@@ -2,9 +2,31 @@
 import express from "express";
 import cors from "cors";
 import { mongoClient } from "./modules/mongo";
+import http from "http";
+import WebSocket from "ws";
 
 // Initialize express application
 const app = express();
+const server = http.createServer(app);
+const wss = new WebSocket.Server({ server });
+
+wss.on("connection", (ws) => {
+  console.log("Client connected");
+
+  ws.on("message", (message) => {
+    console.log(`Received: ${message}`);
+    // Broadcast message to all connected clients
+    wss.clients.forEach((client) => {
+      if (client.readyState === WebSocket.OPEN) {
+        client.send(message.toString());
+      }
+    });
+  });
+
+  ws.on("close", () => {
+    console.log("Client disconnected");
+  });
+});
 
 // Initialize json middleware for reading data from POST requests
 app.use(express.json());
@@ -17,7 +39,7 @@ app.use(cors());
 mongoClient.connect().then(() => {
   console.log("Successfully connected to MongoDB");
   // Listen requests on PORT
-  app.listen(4000, () => {
+  server.listen(4000, () => {
     console.log(`listening on port ${4000}`);
   });
 });
