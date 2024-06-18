@@ -13,12 +13,17 @@ const wss = new WebSocket.Server({ server });
 wss.on("connection", (ws) => {
   console.log("Client connected");
 
-  ws.on("message", (message) => {
-    console.log(`Received: ${message}`);
+  ws.on("message", (data) => {
+    // @ts-ignore
+    const message = JSON.parse(data);
+
+    console.log(
+      `Received: ${message.content.toString()} from ${message.roomId}`
+    );
     // Broadcast message to all connected clients
     wss.clients.forEach((client) => {
       if (client.readyState === WebSocket.OPEN) {
-        client.send(message.toString());
+        client.send(message.content.toString());
       }
     });
   });

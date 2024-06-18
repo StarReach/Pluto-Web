@@ -35,8 +35,13 @@ export default function Home() {
 
   const sendMessage = () => {
     if (ws) {
-      console.log(input);
-      ws.send(input);
+      ws.send(
+        JSON.stringify({
+          type: "message",
+          roomId: "r-25",
+          content: input,
+        })
+      );
       setInput("");
     }
   };
